@@ -1,0 +1,345 @@
+*{
+    margin:0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color:#0ABAB5;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height:50px;
+    width: 100px;
+    margin: 0px;;
+}
+
+.logo{
+    background-image: url("img/vecteezy_amazon-logo-png-amazon-icon-transparent-png_19766240.png");
+    background-size: cover;
+    height:40px;
+    width: 100%;;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+.signin{
+    padding: 5px;
+}
+.return{
+    padding: 5px;
+}
+.cart{
+    padding: 5px;
+}
+/**box2**/
+.Deliver{
+    color:black;
+    font-size: 0.85rem;
+    margin-left: 12px;
+}
+.country{
+    font-size: 1rem;
+    font-weight: 600;
+    color:black;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+    color:black;
+}
+
+/**box3**/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: goldenrod;
+    width:1300px;
+    height: 45px;
+    border-radius: 4px;
+}
+
+.select{
+    background-color: #f3f3f3;
+    width:50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+}
+
+.input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+
+.search-icon{
+    width: 40px;
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+/**box4**/
+span{
+    font-size: 0.7rem;
+    color:black;
+}
+
+.acc{
+    font-size: 1rem;
+    font-weight: 700;
+    color:black;
+}
+
+/**box5**/
+.return {
+    font-size: 0.7rem;
+    color:black;
+}
+.ord{
+    font-size: 1rem;
+    font-weight: 700;
+    color:black;
+}
+
+.lang{
+    height: 20px;
+    background-color: #0ABAB5;
+    width:50px;
+    text-align: center;
+    font-size: 0.5rem;
+    border:none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/**box6**/
+.cart i{
+    font-size: 1.5rem;
+}
+.cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+    color:black;
+}
+
+/**Panel**/
+/**menu**/
+.panel{
+    height: 40px;
+    background-color:#222f3d;
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.options{
+    width: 80%;
+}
+.options p{
+    height: 80%;
+    display: inline-block;
+    font-size: 0.85rem;
+    margin-left: 15px;
+    padding: 5px;
+}
+
+.deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 5px;
+}
+.menu{
+    padding: 5px;
+}
+
+/**hero-section**/
+
+.sec{
+    background-image: url("img/backg.png");
+    background-size: cover;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.ad{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    background-color: white;
+    color: black;
+    width: 80%;
+    height: 30px;
+    margin-bottom: 0px;
+}
+.ad a{
+    color: #007185;
+    text-decoration: none;
+}
+.ad a:hover{
+    text-decoration: underline;
+}
+
+/**shop**/
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #C09067;
+}
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 10px 0px 10px 0px;
+}
+.box a{
+    text-decoration: none;
+}
+.box a:hover{
+    text-decoration: underline;
+}
+.box-1{
+    height: 350px;
+    width: 90%;
+    background-size: cover;
+        margin-left: 17.5px;
+        margin-right: 17.5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        background-repeat: no-repeat;
+}
+.pad{
+    font-size: 1rem;
+    font-weight: normal;
+
+}
+.pad a{
+    margin-left: 8px;
+    color: #007185;
+    font-size: 0.85rem;
+    font-weight: 550;
+
+}
+
+/**Footer**/
+footer{
+    margin-top: 5px;
+}
+.foot-1{
+    background-color: #032f66;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+.foot-1 a{
+    color:white;
+    text-decoration: none;
+}
+
+.foot-2{
+    background-color: #032247;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 10px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+    text-decoration: none;
+}
+
+.foot-3{
+    background-color: #032247;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{background-image: url("img/vecteezy_amazon-logo-png-amazon-icon-transparent-png_19766240.png");
+    background-size: cover;
+    height:40px;
+    width: 100px;
+    margin: 0px 10px 0px 10px;
+}
+.lang2 {
+    border: 1px solid white;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0px 10px 0px 10px;
+    padding: 5px;
+}
+.lang2 a{
+    color: white;
+    text-decoration: none;
+}
+.con{
+    border: 1px solid white;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0px 10px 0px 10px;
+    padding: 5px;
+}
+.con a{
+    color: white;
+    text-decoration: none;
+}
+.foot-4{
+    background-color: #0ABAB5;
+    color: white;
+    height: 80px;
+    text-align: center;
+    border-top: 0.5px solid white;
+}
+
+.end{
+    font-size: 0.75rem;
+    padding: 30px 0px 0px;
+    margin: 9px 5px 0px 5px;
+}
+.end a{
+    color:black;
+    text-decoration: none;
+}
+.end a:hover{
+    text-decoration: underline;
+}
+
+.copyright{
+    font-size: 0.8rem;
+}
